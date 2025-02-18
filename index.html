@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Quiz Platform</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Google Font for Modern Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <!-- Add external stylesheet for extra style management -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <style>
+      /* Dark theme global background and font */
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #121212; /* Dark background */
+        color: #f8f9fa; /* Light text */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      /* Title styling for a better visual */
+      h1 {
+        color: #ffffff;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+
+      /* Center the app content */
+      #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 900px;
+        box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.1); /* Soft white shadow */
+        padding: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to the Interactive Quiz!</h1>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

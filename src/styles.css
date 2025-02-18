@@ -1,0 +1,60 @@
+/* Dark theme styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #f8f9fa; /* Light text for contrast */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark gray quiz container */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* Soft white shadow */
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff; /* Bright blue buttons */
+    color: #ffffff; /* White text */
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Correct and incorrect answer buttons */
+  .correct {
+    background-color: #17c964; /* Bright green for correct */
+    color: #ffffff;
+  }
+  
+  .incorrect {
+    background-color: #ff4b4b; /* Bright red for incorrect */
+    color: #ffffff;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+    width: 100px;
+    background-color: #333333; /* Dark input background */
+    color: #f8f9fa; /* Light input text */
+    border: 1px solid #555555; /* Border for visibility */
+    border-radius: 5px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #f8f9fa; /* Ensure all text is light */
+  }
+  
