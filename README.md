@@ -45,7 +45,7 @@ npm start
 ---
 
 ## **Deployment**
-The app is deployed on **[Vercel/Netlify](https://interactive-quiz-platform-bay.vercel.app/)**. Click the link to access the live version.
+The app is deployed on **[Vercel](https://interactive-quiz-platform-bay.vercel.app/)**. Click the link to access the live version.
 
 ---
 
